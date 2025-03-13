@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building C++ Project...'
-                    sh 'g++ -o pes2ug22cs367-1 main/hello.cpp'  /* Replace with your actual file */
+                    sh 'g++ -o pes2ug22cs367-1 hello.cpp'  /* Replace with your actual file */
                 }
             }
         }
